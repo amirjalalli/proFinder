@@ -99,10 +99,19 @@ a {
 }
 .user-social-media {
     display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
     gap: 8px;
+    /* text-align: center; */
 }
 .ser-city {
 }
 .user-location {
     margin-bottom: 10px;
+}
+.loading {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 42px;
+    font-weight: 800;
 }
